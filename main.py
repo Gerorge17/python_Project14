@@ -3,7 +3,7 @@ from telebot import types
 import requests
 from bs4 import BeautifulSoup
 
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot(" ")
 
 @bot.message_handler(commands=["start"])
 def start(message):
